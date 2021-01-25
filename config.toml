@@ -11,6 +11,7 @@ relativeURLs = true
 [params]
     backgroundPath = "images/SA_back.png"
     css= ["css/sourgough.css"]
+    footerOffset = -60
 
 [menu]
 #----- Navbar links ------
@@ -47,12 +48,6 @@ relativeURLs = true
     name = "LinkedIn"
     url = "/projects/"
     pre = "fab fa-linkedin-in"
-
-  [[menu.bot]]
-    identifier = "googlescholar"
-    name = "Google Scholar"
-    url = "/projects/"
-    pre = "fas fa-graduation-cap"
 
 #-------- About section links ----- 
   [[menu.about]]
