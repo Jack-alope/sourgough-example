@@ -13,6 +13,11 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+        
+      - name: Clone sourgough-starter
+        run: |
+          mkdir themes
+          git clone https://github.com/Jack-alope/sourgough-starter.git themes/sourgough-starter
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
