@@ -26,9 +26,7 @@ jobs:
       - name: Build
         run: |
           mkdir themes
-          cd themes
-          git clone https://github.com/Jack-alope/sourgough-starter.git
-          cd ..
+          git clone https://github.com/Jack-alope/sourgough-starter.git themes/sourgough-starter
           hugo --minify
 
       - name: Deploy
