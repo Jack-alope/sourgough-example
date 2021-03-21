@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://sourgough.mrph.dev"
 languageCode = "en-us"
 title = "Your Name"
 theme = "sourgough-starter"
